@@ -12,8 +12,14 @@ public class SampleProjectApplication {
 	@GetMapping
 	public String getmessage() 
 	{
-		return "Hello...";
+		return "Hello , myself shrutii...";
 	}
+	
+	public String getmessage1() 
+	{
+		return "Hello , myself shrutii...";
+	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(SampleProjectApplication.class, args);
